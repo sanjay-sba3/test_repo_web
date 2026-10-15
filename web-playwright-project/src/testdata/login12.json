@@ -1,0 +1,5 @@
+{
+  "invalidPassword": "invalid-password-123",
+  "anyValidPassword": "any-valid-password",
+  "nonExistentUser": "{{random.email}}"
+}
