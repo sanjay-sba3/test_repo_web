@@ -1,0 +1,6 @@
+{
+  "password": "SecretPassword123",
+  "mismatchedPassword": "DifferentPassword456!",
+  "age": "30",
+  "xssPayload": "<script>alert(1)</script>"
+}
