@@ -1,0 +1,59 @@
+{
+  "TC1": {
+    "email": "<script>alert('xss')</script>",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2": {},
+  "TC3": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC4": {
+    "username": "${APP_USERNAME}",
+    "password": "invalidpassword123"
+  },
+  "TC5": {
+    "email": "nonexistent-user-12345@example.com",
+    "password": "anypassword"
+  },
+  "TC6": {},
+  "TC7": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC8": {
+    "username": "",
+    "password": ""
+  },
+  "TC9": {
+    "username": "invalid-email-format",
+    "password": "any-valid-password"
+  },
+  "TC10": {
+    "username": "${APP_USERNAME}",
+    "password": "incorrect-password-123!"
+  },
+  "TC11": {
+    "email": "${APP_USERNAME}",
+    "password": "IncorrectPassword123!"
+  },
+  "TC12": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC13": {
+    "username": "${APP_USERNAME}",
+    "password": "IncorrectPassword123!"
+  },
+  "TC14": {
+    "nonExistentEmail": "nonexistent-user-67890@example.com",
+    "password": "any-password"
+  },
+  "TC15": {
+    "username": "${APP_USERNAME}"
+  },
+  "TC16": {
+    "invalidFormatEmail": "invalid-email-format-again",
+    "password": "any-password"
+  }
+}
