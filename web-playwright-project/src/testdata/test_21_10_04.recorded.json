@@ -1,0 +1,64 @@
+{
+  "S210_TC1": {
+    "password": "${APP_PASSWORD}"
+  },
+  "S210_TC2": {
+    "username": "${APP_USERNAME}"
+  },
+  "S207_TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S207_TC2": {
+    "username": "${APP_USERNAME}",
+    "password": "invalid-password-123"
+  },
+  "S207_TC3": {
+    "username": "{{random.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S207_TC4": {},
+  "S207_TC5": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S209_TC1": {},
+  "S209_TC2": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S209_TC3": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "S209_TC4": {
+    "username": "",
+    "password": ""
+  },
+  "S209_TC5": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S208_TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "{{negative.password}}"
+  },
+  "S208_TC2": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S208_TC3": {
+    "username": "${APP_USERNAME}"
+  },
+  "S208_TC4": {
+    "password": "${APP_PASSWORD}"
+  },
+  "S208_TC5": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "S211_TC1": {
+    "username": "{{security.comment}}",
+    "password": "{{security.comment}}"
+  }
+}
