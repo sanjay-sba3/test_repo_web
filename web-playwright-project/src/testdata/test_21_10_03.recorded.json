@@ -1,0 +1,50 @@
+{
+  "baseURL": "https://www.mocktestzone.in/",
+  "TC1": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2": {},
+  "TC3": {
+    "payload": "<script>alert('xss')</script>"
+  },
+  "TC4": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC5": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "TC6": {
+    "email": "nonexistent-user@example.com",
+    "password": "anypassword"
+  },
+  "TC7": {},
+  "TC8": {
+    "url": "https://www.mocktestzone.in/%27"
+  },
+  "TC9": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC10": {
+    "username": "${APP_USERNAME}",
+    "password": "some-wrong-password"
+  },
+  "TC11": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC12": {
+    "username": "${APP_USERNAME}",
+    "password": "ThisIsAnIncorrectPassword123"
+  },
+  "TC13": {
+    "email": "random-new-user@example.com",
+    "password": "any-password"
+  },
+  "TC14": {
+    "email": "invalid-email-format"
+  },
+  "TC15": {}
+}
