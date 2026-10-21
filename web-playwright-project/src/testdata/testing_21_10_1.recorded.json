@@ -1,0 +1,78 @@
+{
+  "TC1": {
+    "email": "<script>alert('xss')</script>",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2": {
+    "email": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC3": {
+    "email": "${APP_USERNAME}",
+    "password": "InvalidPassword123!"
+  },
+  "TC4": {
+    "email": "not-a-real-user@example.com",
+    "password": "anypassword123"
+  },
+  "TC5": {
+    "email": "invalid-email-format",
+    "password": "anypassword123"
+  },
+  "TC6": {},
+  "TC7": {
+    "email": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC8": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC9": {
+    "email": "${APP_USERNAME}"
+  },
+  "TC10": {
+    "email": "${APP_USERNAME}",
+    "password": "invalid-password-123!"
+  },
+  "TC11": {
+    "email": "another-fake-user@example.com",
+    "password": "any-password-will-do"
+  },
+  "TC12": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC13": {
+    "username": "${APP_USERNAME}",
+    "password": "a-random-wrong-password"
+  },
+  "TC14": {
+    "email": "yet-another-fake-user@example.com",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC15": {
+    "username": "${APP_USERNAME}"
+  },
+  "TC16": {
+    "email": "another-bad-email",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC17": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC18": {
+    "username": "${APP_USERNAME}",
+    "password": "ThisIsAWrongPassword123!"
+  },
+  "TC19": {
+    "username": "${APP_USERNAME}"
+  },
+  "TC20": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC21": {
+    "email": "<!-- <script>alert(1)</script> -->",
+    "password": "${APP_PASSWORD}"
+  }
+}
