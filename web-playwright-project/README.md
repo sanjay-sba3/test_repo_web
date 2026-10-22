@@ -5,7 +5,8 @@ cucumber-js + Playwright (TypeScript) reference project. Orbit downloads it from
 automation config.
 
 ```
-npm install                        # also installs Chromium (postinstall: playwright install chromium)
+npm install
+npx playwright install chromium
 cp .env.example .env
 npx cucumber-js                    # everything
 npx cucumber-js --tags @dryrun     # smoke subset Orbit runs after generation
@@ -19,5 +20,7 @@ Layout:
 - `src/steps/common.steps.ts`: shared steps (reuse these, don't redeclare them)
 - `src/steps/<Name>.steps.ts`: feature-specific steps
 - `src/pages/BasePage.ts`: base page object; `src/pages/<Page>Page.ts` extend it
-- `src/testdata/<Name>.json`: test data, loaded with `loadTestData('<Name>')`
+- `src/testdata/<Name>.json`: test data, loaded with `loadTestData('<Name>')` -- `"${APP_PASSWORD}"`
+  from `.env`, `"{{random.email}}"` / `{{negative.x}}` / `{{boundary.x}}` / `{{security.x}}` generated
+  per load (`src/support/testDataGenerator.ts`, Faker)
 - `src/support/`: World, hooks, config (`.env`), test data loader
