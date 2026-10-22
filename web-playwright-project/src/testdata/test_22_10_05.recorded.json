@@ -1,0 +1,45 @@
+{
+  "TC1_247": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2_247": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "TC3_247": {
+    "username": "{{random.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC4_247": {},
+  "TC5_247": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC1_248": {},
+  "TC1_249": {
+    "username": "${APP_USERNAME}",
+    "password": "ThisIsAnIncorrectPassword"
+  },
+  "TC1_250": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2_250": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC3_250": {
+    "username": "${APP_USERNAME}"
+  },
+  "TC4_250": {
+    "email": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC5_250": {
+    "email": "{{security.comment}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC1_251": {
+    "password": "MySecretPassword123!"
+  }
+}
