@@ -1,0 +1,9 @@
+{
+  "password": "ValidPassword123!",
+  "mismatchedPassword": "DifferentPassword456?",
+  "wrongPassword": "WrongPassword789!",
+  "age": "30",
+  "gender": "Male",
+  "mobileNumber": "+1234567890",
+  "duplicateEmail": "${APP_USERNAME}"
+}
