@@ -1,0 +1,69 @@
+{
+  "TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "TC3": {},
+  "TC4": {
+    "username": "${APP_USERNAME}"
+  },
+  "TC5": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC6": {
+    "email": "${APP_USERNAME}",
+    "password": "ThisIsAnIncorrectPassword123!"
+  },
+  "TC7": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC8": {},
+  "TC9": {
+    "username": "${APP_USERNAME}",
+    "password": "invalid-password-123!"
+  },
+  "TC10": {},
+  "TC11": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC12": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC13": {
+    "username": "${APP_USERNAME}",
+    "password": ""
+  },
+  "TC14": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "TC15": {
+    "username": "",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC16": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC17": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC18": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC19": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC20": {}
+}

@@ -1,0 +1,11 @@
+import { test, expect } from '@playwright/test';
+import '../support/config.js';
+import { loadTestData } from '../support/testData.js';
+
+const data = loadTestData('test_22_10_02.recorded');
+
+test('TC20', async ({ page }) => {
+  await page.goto('http://localhost:3000/profile');
+  await expect(page).toHaveURL(/.*\/login/);
+  await expect(page.getByRole('button', { name: 'Sign in' })).toBeVisible();
+});
