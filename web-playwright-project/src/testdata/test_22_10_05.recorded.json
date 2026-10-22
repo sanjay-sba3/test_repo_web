@@ -1,0 +1,45 @@
+{
+  "T1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "T2": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "T3": {
+    "username": "{{random.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "T4": {},
+  "T5": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "T6": {},
+  "T7": {
+    "username": "${APP_USERNAME}",
+    "password": "ThisIsAnIncorrectPassword"
+  },
+  "T8": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "T9": {
+    "password": "${APP_PASSWORD}"
+  },
+  "T10": {
+    "username": "${APP_USERNAME}"
+  },
+  "T11": {
+    "email": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "T12": {
+    "email": "{{security.comment}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "T13": {
+    "password": "MySecretPassword123!"
+  }
+}
