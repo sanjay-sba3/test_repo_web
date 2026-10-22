@@ -1,0 +1,61 @@
+{
+  "TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "TC3": {
+    "email": "{{random.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC4": {
+    "email": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC5": {
+    "username": "${APP_USERNAME}",
+    "password": "123"
+  },
+  "TC6": {},
+  "TC7": {},
+  "TC8": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC9": {
+    "email": "${APP_USERNAME}",
+    "password": "ThisIsAnIncorrectPassword123!"
+  },
+  "TC10": {
+    "email": "{{random.email}}",
+    "password": "any-password-will-do"
+  },
+  "TC11": {
+    "email": "",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC12": {
+    "email": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC13": {
+    "email": "${APP_USERNAME}",
+    "password": ""
+  },
+  "TC14": {
+    "email": "${APP_USERNAME}",
+    "password": "abc"
+  },
+  "TC15": {
+    "char": "P"
+  },
+  "TC16": {
+    "char": "P"
+  },
+  "TC17": {
+    "email": "TEST@EMAIL.COM"
+  }
+}
