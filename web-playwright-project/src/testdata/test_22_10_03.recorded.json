@@ -1,0 +1,75 @@
+{
+  "case_1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_2": {
+    "username": "${APP_USERNAME}",
+    "password": "{{negative.password}}"
+  },
+  "case_3": {
+    "username": "{{random.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_4": {
+    "username": "${APP_USERNAME}"
+  },
+  "case_5": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_6": {
+    "username": "${APP_USERNAME}",
+    "password": "IncorrectPassword123!"
+  },
+  "case_7": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_8": {},
+  "case_9": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_10": {
+    "username": "{{security.comment}}",
+    "password": "anypassword"
+  },
+  "case_11": {
+    "username": "${APP_USERNAME}"
+  },
+  "case_12": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_13": {
+    "password": "${APP_PASSWORD}"
+  },
+  "case_14": {
+    "username": "${APP_USERNAME}",
+    "password": "wrongpassword123!"
+  },
+  "case_15": {
+    "username": "${APP_USERNAME}"
+  },
+  "case_16": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_17": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "case_18": {
+    "username": "${APP_USERNAME}"
+  },
+  "case_19": {},
+  "case_20": {
+    "username": "${APP_USERNAME}",
+    "password": "ThisIsAnIncorrectPassword123!"
+  },
+  "case_21": {
+    "username": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  }
+}
