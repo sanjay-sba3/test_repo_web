@@ -1,0 +1,6 @@
+{
+  "password": "ValidPassword123!",
+  "wrongPassword": "WrongPassword789!",
+  "confirmPassword": "DifferentPassword456!",
+  "existingUserEmail": "${APP_USERNAME}"
+}
