@@ -1,0 +1,10 @@
+{
+  "username": "${APP_USERNAME}",
+  "password": "${APP_PASSWORD}",
+  "randomPassword": "{{random.password}}",
+  "nonExistentUser": "{{random.email}}",
+  "incorrectPasswordLiteral": "invalidPassword123!",
+  "wrongPasswordLiteral": "wrongpassword123",
+  "anyPasswordLiteral": "anypassword",
+  "maskedPasswordLiteral": "a-test-password"
+}
