@@ -1,0 +1,11 @@
+{
+  "firstName": "Test",
+  "lastName": "User",
+  "mobileNumber": "5551234567",
+  "age": "30",
+  "gender": "Other",
+  "password": "ValidPassword123!",
+  "mismatchedPassword": "DifferentPassword456!",
+  "shortPassword": "short",
+  "existingEmail": "${APP_USERNAME}"
+}
