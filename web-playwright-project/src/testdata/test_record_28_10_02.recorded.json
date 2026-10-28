@@ -1,0 +1,15 @@
+{
+  "TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC2": {},
+  "TC3": {
+    "username": "${APP_USERNAME}",
+    "password": "incorrectPa$$w0rd"
+  },
+  "TC4": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC5": {}
+}
