@@ -1,0 +1,8 @@
+{
+  "validPassword": "ValidPassword123!",
+  "e2ePassword": "${APP_PASSWORD}",
+  "existingUserEmail": "${APP_USERNAME}",
+  "age": "30",
+  "gender": "Male",
+  "mobileNumber": "1234567890"
+}
