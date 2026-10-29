@@ -1,0 +1,20 @@
+{
+  "TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC4": {
+    "email": "${APP_USERNAME}",
+    "password": "a-deliberately-incorrect-password"
+  },
+  "TC5": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC6": {
+    "email": "${APP_USERNAME}"
+  },
+  "TC8": {
+    "email": "{{security.comment}}",
+    "password": "${APP_PASSWORD}"
+  }
+}
