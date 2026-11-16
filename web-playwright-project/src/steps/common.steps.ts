@@ -77,6 +77,10 @@ Then('I should see the {string} button', async function (this: CustomWorld, name
   await expect(this.page.getByRole('button', { name })).toBeVisible();
 });
 
+Then('I should see the {string} link', async function (this: CustomWorld, name: string) {
+  await expect(this.page.getByRole('link', { name })).toBeVisible();
+});
+
 Then('the page title should contain {string}', async function (this: CustomWorld, text: string) {
   await expect(this.page).toHaveTitle(new RegExp(escapeRegExp(text)));
 });
