@@ -1,0 +1,7 @@
+{
+  "name": "Test User",
+  "email": "{{random.email}}",
+  "password": "ValidPassword123!",
+  "newUserPassword": "ValidNewUserP@ssw0rd1!",
+  "existingUserEmail": "${APP_USERNAME}"
+}
