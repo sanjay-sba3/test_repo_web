@@ -1,0 +1,33 @@
+{
+  "TC1": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}",
+    "otp": "${APP_OTP}"
+  },
+  "TC2": {},
+  "TC3": {},
+  "TC4": {},
+  "TC5": {
+    "email": "${APP_USERNAME}",
+    "password": "wrongpassword123"
+  },
+  "TC6": {
+    "email": "{{negative.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC7": {
+    "email": "{{random.email}}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC8": {
+    "username": "${APP_USERNAME}",
+    "password": "${APP_PASSWORD}"
+  },
+  "TC9": {
+    "password": "${APP_PASSWORD}"
+  },
+  "TC10": {
+    "username": "${APP_USERNAME}"
+  },
+  "TC11": {}
+}
