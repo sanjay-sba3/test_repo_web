@@ -1,0 +1,5 @@
+{
+  "password": "password123456",
+  "minPassword": "p12345",
+  "otp": "${APP_OTP}"
+}
