@@ -1,0 +1,4 @@
+{
+  "password": "ValidPassword123!",
+  "otp": "${APP_OTP}"
+}
