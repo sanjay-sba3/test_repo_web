@@ -1,0 +1,9 @@
+{
+  "password": "ValidPassword123!",
+  "firstName": "Test",
+  "lastName": "User",
+  "age": "25",
+  "gender": "Prefer not to say",
+  "mobileNumber": "+15551234567",
+  "otp": "${APP_OTP}"
+}
