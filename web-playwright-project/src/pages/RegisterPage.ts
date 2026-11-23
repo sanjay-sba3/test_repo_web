@@ -1,0 +1,34 @@
+import { BasePage } from './BasePage.js';
+
+interface RegistrationData {
+  firstName: string;
+  lastName: string;
+  emailAddress: string;
+  age: string;
+  gender: string;
+  password: string;
+}
+
+export class RegisterPage extends BasePage {
+  get firstName() { return this.page.getByRole('textbox', { name: 'First name' }); }
+  get lastName() { return this.page.getByRole('textbox', { name: 'Last name' }); }
+  get emailAddress() { return this.page.getByRole('textbox', { name: 'Email address' }); }
+  get age() { return this.page.getByRole('spinbutton', { name: 'Age (years)' }); }
+  get genderIdentity() { return this.page.getByRole('combobox', { name: 'Gender identity' }); }
+  get accountPassword() { return this.page.getByRole('textbox', { name: 'Account password' }); }
+  get confirmPassword() { return this.page.getByRole('textbox', { name: 'Confirm password' }); }
+  get terms() { return this.page.getByRole('checkbox', { name: 'I accept the terms and conditions' }); }
+  get createAccountButton() { return this.page.getByRole('button', { name: 'Create account' }); }
+
+  async register(data: RegistrationData): Promise<void> {
+    await this.fill(this.firstName, data.firstName);
+    await this.fill(this.lastName, data.lastName);
+    await this.fill(this.emailAddress, data.emailAddress);
+    await this.fill(this.age, data.age);
+    await this.select(this.genderIdentity, data.gender);
+    await this.fill(this.accountPassword, data.password);
+    await this.fill(this.confirmPassword, data.password);
+    await this.check(this.terms);
+    await this.click(this.createAccountButton);
+  }
+}
