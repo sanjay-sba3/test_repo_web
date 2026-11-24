@@ -1,0 +1,8 @@
+{
+  "email": "test@test.com",
+  "password": "ValidPass123!",
+  "mismatchedPassword": "DifferentPass456!",
+  "xssPassword": "Password123!@#",
+  "e2ePassword": "SecurePassword123!",
+  "otp": "${APP_OTP}"
+}
